@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Энэ layout нь MainActivity-ийн үндсэн container юм.
+    Fragment-үүд (WelcomeFragment, HomeFragment, CreateTaskFragment гэх мэт)
+    бүгд энэ FrameLayout дотор ачаалагдана.
+-->
+
+<!-- Fragment-ууд харагдах container -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

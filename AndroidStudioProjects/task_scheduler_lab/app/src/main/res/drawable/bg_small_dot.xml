@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Энэ drawable нь жижиг дугуй хэлбэрийн indicator юм.
+    Task list дээр timeline style харуулахад ашиглагдана.
+-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"> <!-- Дугуй хэлбэр -->
+
+    <!-- Дугуйн өнгө -->
+    <solid android:color="#F3C9D6" />
+
+    <!-- Дугуйн хэмжээ -->
+    <size
+        android:width="6dp"
+        android:height="6dp" />
+
+</shape>

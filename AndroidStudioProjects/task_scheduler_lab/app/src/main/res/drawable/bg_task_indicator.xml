@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Энэ drawable нь task timeline дээр харагдах indicator дугуй юм.
+    Task дууссан эсвэл идэвхтэй task-ийг визуал байдлаар ялгах зориулалттай.
+-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"> <!-- Дугуй хэлбэр -->
+
+    <!-- Дугуйн үндсэн өнгө -->
+    <solid android:color="#F2AFC3" />
+
+    <!-- Дугуйн хүрээ (border) -->
+    <stroke
+        android:width="2dp"
+        android:color="#F7D5E0" />
+
+    <!-- Дугуйн хэмжээ -->
+    <size
+        android:width="14dp"
+        android:height="14dp" />
+
+</shape>

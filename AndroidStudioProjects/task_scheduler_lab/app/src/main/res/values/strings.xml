@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">TaskScheduler</string>
+
+    <string name="back">Back</string>
+    <string name="create_new_task">Create New Task</string>
+    <string name="task_illustration">Task illustration</string>
+
+    <string name="name">Name</string>
+    <string name="task_name_hint">Enter task name</string>
+    <string name="description">Description</string>
+    <string name="task_description_hint">Enter task description</string>
+    <string name="project">Project</string>
+
+    <string name="date">Date</string>
+    <string name="default_date">Select date</string>
+    <string name="calendar">Calendar</string>
+
+    <string name="starting_time">Starting Time</string>
+    <string name="default_time">09:00</string>
+    <string name="alarm">Alarm</string>
+
+    <string name="remind_me">Remind Me</string>
+    <string name="reminder_type">Reminder type</string>
+    <string name="select_reminder_datetime">Select reminder date &amp; time</string>
+    <string name="remind_after_create">Remind after create</string>
+    <string name="no_reminder_selected">No reminder selected</string>
+    <string name="no_reminder">No reminder</string>
+    <string name="exact">Exact</string>
+    <string name="after_create">After create</string>
+    <string name="exact_prefix">Exact:</string>
+    <string name="after_create_suffix">after create</string>
+
+    <string name="five_minutes">5 minutes</string>
+    <string name="fifteen_minutes">15 minutes</string>
+    <string name="thirty_minutes">30 minutes</string>
+    <string name="one_hour">1 hour</string>
+    <string name="one_day">1 day</string>
+
+    <string name="category">Category</string>
+    <string name="category_life">Life</string>
+    <string name="category_work">Work</string>
+    <string name="category_study">Study</string>
+
+    <string name="priority">Priority</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+
+    <string name="see_more">See more</string>
+    <string name="create_task">Create Task</string>
+    <string name="task_name_required">Task name is required</string>
+    <string name="task_saved">Task saved</string>
+    <string name="task_reminder_message">Reminder for %1$s</string>
+
+    <string name="calendar_title">Calendar</string>
+    <string name="tasks_for_today">Tasks for today</string>
+    <string name="no_date_selected">No date selected</string>
+    <string name="add_task_for_day">Add task for this day</string>
+    <string name="add_task_for_day_subtitle">Create a task for the selected date</string>
+    <string name="no_tasks_for_day">No tasks for this day</string>
+
+    <string name="menu_icon">☰</string>
+    <string name="hello_user">Hello, Yesyen Syerikbol</string>
+    <string name="have_a_nice_day">Have a nice day!</string>
+    <string name="projects">Projects</string>
+
+    <string name="create_new_project">Create new project</string>
+    <string name="create_new_project_subtitle">You can create new project in here</string>
+
+    <string name="create_new_task_title">Create new task</string>
+    <string name="create_new_task_subtitle">You can create new task in here</string>
+
+    <string name="open_calendar">Open Calendar</string>
+    <string name="open_calendar_subtitle">View tasks by selected date</string>
+
+    <string name="ongoing_task">Ongoing Task</string>
+    <string name="profile_image">Profile image</string>
+    <string name="plus_sign">+</string>
+    <string name="calendar_emoji">📅</string>
+</resources>

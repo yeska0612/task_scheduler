@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Энэ layout нь project үүсгэх болон project засах дэлгэцийн UI юм.
+    Хэрэглэгч энд project-ийн нэр, тайлбарыг оруулж хадгална.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F1E8"
+    android:fillViewport="true">
+
+    <!-- Бүх UI элементүүдийг босоо байдлаар байрлуулна -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Дээд navigation хэсэг:
+             Back товч + Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Буцах товч -->
+            <ImageButton
+                android:id="@+id/btnBackProject"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Back"
+                android:src="@android:drawable/ic_media_previous" />
+
+            <!-- Дэлгэцийн гарчиг -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CREATE PROJECT"
+                android:textColor="#333333"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Баруун талын хоосон зай -->
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <!-- Project name гарчиг -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Project Name"
+            android:textColor="#E76F7A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Project нэр оруулах талбар -->
+        <EditText
+            android:id="@+id/etProjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Enter project name"
+            android:inputType="textCapSentences"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Доод зураас -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD" />
+
+        <!-- Description гарчиг -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Description"
+            android:textColor="#E76F7A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Project тайлбар оруулах талбар -->
+        <EditText
+            android:id="@+id/etProjectDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Enter project description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="3"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Доод зураас -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD" />
+
+        <!-- Project хадгалах товч -->
+        <Button
+            android:id="@+id/btnSaveProject"
+            android:layout_width="220dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="#E76F7A"
+            android:text="SAVE PROJECT"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
